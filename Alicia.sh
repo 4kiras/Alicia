@@ -1,5 +1,16 @@
 #!/bin/bash
 
+echo "#   ▄▄▄       ██▓     ██▓ ▄████▄   ██▓ ▄▄▄      "
+echo "#  ▒████▄    ▓██▒    ▓██▒▒██▀ ▀█  ▓██▒▒████▄    "
+echo "#  ▒██  ▀█▄  ▒██░    ▒██▒▒▓█    ▄ ▒██▒▒██  ▀█▄  "
+echo "#  ░██▄▄▄▄██ ▒██░    ░██░▒▓▓▄ ▄██▒░██░░██▄▄▄▄██ "
+echo "#   ▓█   ▓██▒░██████▒░██░▒ ▓███▀ ░░██░ ▓█   ▓██▒"
+echo "#   ▒▒   ▓▒█░░ ▒░▓  ░░▓  ░ ░▒ ▒  ░░▓   ▒▒   ▓▒█░"
+echo "#    ▒   ▒▒ ░░ ░ ▒  ░ ▒ ░  ░  ▒    ▒ ░  ▒   ▒▒ ░"
+echo "#    ░   ▒     ░ ░    ▒ ░░         ▒ ░  ░   ▒   "
+echo "#        ░  ░    ░  ░ ░  ░ ░       ░        ░  ░"
+echo "#                        ░                      "
+
 # Explicación y confirmación
 echo "Este script realizará las siguientes acciones:"
 echo "1. Actualización del sistema"
