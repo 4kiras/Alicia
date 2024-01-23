@@ -1,0 +1,26 @@
+{
+  "version": "2.1.3",
+  "summary": {
+    "title": "Alicia",
+    "owner": "Jose Sebastian Gomez Maldonado",
+    "description": "Sistema de Rastreo ",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 2,
+        "title": "Nuevo diagrama STRIDE",
+        "diagramType": "STRIDE",
+        "placeholder": "Descripción de nuevo diagrama STRIDE",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.1.3",
+        "cells": []
+      }
+    ],
+    "diagramTop": 3,
+    "reviewer": "Alto",
+    "threatTop": 0
+  }
+}
