@@ -50,19 +50,6 @@
               "hasOpenThreats": true,
               "threats": [
                 {
-                  "id": "97526e34-510f-4cf1-a450-4e598fabf1aa",
-                  "title": "Manipulación de la Conexión Onion:",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Tampering / Manipulación",
-                  "description": "Posibilidad de que un atacante manipule la conexión Onion para dirigir el tráfico a ubicaciones maliciosas.",
-                  "mitigation": "Utilizar cifrado fuerte, verificar integridad de la conexión, y mantener software actualizado.",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 5,
-                  "score": ""
-                },
-                {
                   "id": "eea8711e-9ce8-48ff-9b83-70b814a3c8e2",
                   "title": "Revelación de Información Sensible en Conexión Onion",
                   "status": "Open",
@@ -257,51 +244,6 @@
               "hasOpenThreats": false,
               "threats": []
             },
-            "id": "3571ea8a-b614-408c-a7e8-7c6458c1bf74",
-            "source": {
-              "cell": "82d7b109-ddb7-4e13-af6c-d5dd7ed41629"
-            },
-            "target": {
-              "cell": "412054cc-8764-4dcc-9909-c6ca8086dc13"
-            },
-            "vertices": [
-              {
-                "x": 460,
-                "y": 270
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
             "id": "e9010db6-92ed-450f-9b06-cbcf3bcf5735",
             "source": {
               "x": 595,
@@ -367,45 +309,6 @@
             ]
           },
           {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isBidirectional": false,
-              "reasonOutOfScope": "",
-              "protocol": "",
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "hasOpenThreats": false,
-              "threats": []
-            },
-            "id": "17d34730-e172-475c-884e-3cb3411a8d0e",
-            "source": {
-              "cell": "db2140d4-6147-4080-997c-61982b4cbe88"
-            },
-            "target": {
-              "cell": "324f47e6-db83-4c6e-a825-3c2139e75223"
-            }
-          },
-          {
             "shape": "trust-boundary-curve",
             "width": 200,
             "height": 100,
@@ -431,6 +334,120 @@
               {
                 "x": 590,
                 "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "4d5d49d7-7763-4b76-b327-2deb98b0e3ce",
+                  "title": "Manipulación de la Conexión Onion",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Posibilidad de que un atacante manipule la conexión Onion para dirigir el tráfico a ubicaciones maliciosas.",
+                  "mitigation": "Utilizar cifrado fuerte, verificar integridad de la conexión, y mantener software actualizado.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "17d34730-e172-475c-884e-3cb3411a8d0e",
+            "source": {
+              "cell": "db2140d4-6147-4080-997c-61982b4cbe88"
+            },
+            "target": {
+              "cell": "324f47e6-db83-4c6e-a825-3c2139e75223"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "isBidirectional": false,
+              "reasonOutOfScope": "",
+              "protocol": "",
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "id": "674eefea-fef7-45b3-9c4d-d3bdf02221d2",
+                  "title": "Intercepción de Datos Sensibles durante el Descifrado de Links",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Tampering / Manipulación",
+                  "description": "Existe la posibilidad de que un atacante intercepte y modifique datos sensibles durante el proceso de descifrado de links, comprometiendo la integridad y confidencialidad de la información.",
+                  "mitigation": "Establecer un sistema de monitoreo proactivo para detectar actividades inusuales o intentos de intrusión durante el descifrado de links.",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ]
+            },
+            "id": "3571ea8a-b614-408c-a7e8-7c6458c1bf74",
+            "source": {
+              "cell": "82d7b109-ddb7-4e13-af6c-d5dd7ed41629"
+            },
+            "target": {
+              "cell": "412054cc-8764-4dcc-9909-c6ca8086dc13"
+            },
+            "vertices": [
+              {
+                "x": 460,
+                "y": 270
               }
             ]
           },
@@ -581,7 +598,7 @@
                 },
                 {
                   "id": "c920b5a0-3da5-4c40-8b31-022add0a2564",
-                  "title": "Nueva amenaza STRIDE",
+                  "title": "Acceso no autorizado",
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Information disclosure / Brecha de información",
@@ -600,6 +617,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "Alto",
-    "threatTop": 14
+    "threatTop": 16
   }
 }
